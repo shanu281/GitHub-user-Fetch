@@ -24,7 +24,7 @@ const App = () => {
   };
 
   const handleFollowers = (user) => {
-    fetch(`"https://api.github.com/users/${user.login}/followers"`)
+    fetch(`https://api.github.com/users/${user.login}/followers`)
       .then((res) => res.json())
       .then((data) => setFollowers(data));
     setViewFollwers(true);
@@ -34,7 +34,7 @@ const App = () => {
     console.log(user.login);
   };
   const handleFollowings = (user) => {
-    fetch(`"https://api.github.com/users/${user.login}/following"`)
+    fetch(`https://api.github.com/users/${user.login}/following`)
       .then((res) => res.json())
       .then((data) => setFollowings(data));
     setViewFollowings(true);
