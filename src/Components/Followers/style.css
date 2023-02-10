@@ -1,0 +1,11 @@
+.followers {
+  width: 10rem;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.followers-img {
+  width: 5rem;
+  height: 5rem;
+}

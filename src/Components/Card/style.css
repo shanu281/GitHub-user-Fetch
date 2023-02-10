@@ -1,0 +1,44 @@
+.card {
+  width: 18rem;
+  height: 300px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 1.5rem;
+  padding: 1rem;
+}
+.img-sec {
+  margin: auto;
+  width: 5rem;
+  height: 5rem;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.btn {
+  padding: 0.4rem 0.8rem;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: rgb(121, 121, 115);
+  border-radius: 10px;
+  color: white;
+}
+.follower-section {
+  margin-top: 3rem;
+}
+.name {
+  text-align: center;
+}
+.following-sec {
+  display: flex;
+  flex-direction: row;
+}
+.display {
+  width: 80vw;
+ 
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
